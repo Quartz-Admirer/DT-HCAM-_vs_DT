@@ -1,0 +1,30 @@
+# experiments/config_dt_hcam_minigrid.yaml
+
+env_name: "MiniGrid-MemoryS17Random-v0"
+dataset_path: "data/minigrid_memory/medium_filtered_memorys17random_trajectories.npz"
+
+state_dim: 148
+act_dim: 7
+
+hidden_size: 128
+n_layers: 3
+n_heads: 4
+
+max_length: 200
+
+learning_rate: 0.0003
+batch_size: 32
+epochs: 100
+device: "cuda"
+use_hcam: true
+
+seq_len: 50
+eval_episodes: 10
+eval_max_steps: 300
+
+eval_target_return: 0.2
+
+chunk_size: 8      
+num_memory_slots: 16
+
+wandb_project: "dt_hcam_project_memoryS17"
