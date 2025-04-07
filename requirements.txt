@@ -1,0 +1,7 @@
+torch>=2.0
+transformers
+gymnasium==0.29.1
+minigrid==2.3.1
+numpy
+pyyaml
+wandb
