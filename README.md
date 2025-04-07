@@ -78,9 +78,13 @@ Results, including training loss and evaluation rewards, will be logged to your 
 ## References
 
 * Chen et al. (2021). Decision transformer: Reinforcement learning via sequence modeling. *NeurIPS*.
+* Cherepanov et al. (2023). Recurrent action transformer with memory. *arXiv*.
+* Cherepanov et al. (2024). Unraveling the complexity of memory in rl agents: an approach for classification and evaluation. *arXiv*.
+* Janner et al. (2021). Offline reinforcement learning as one big sequence modeling problem. *NeurIPS*.
 * Lampinen et al. (2021). Towards mental time travel: a hierarchical memory for reinforcement learning agents. *NeurIPS*.
 * Ni et al. (2023). When do transformers shine in rl? decoupling memory from credit assignment. *NeurIPS*.
-* Chevalier-Boisvert et al. (2018-2023). Minimalistic Gridworld Environment for Gymnasium. *GitHub*.
+* Parisotto et al. (2020). Stabilizing transformers for reinforcement learning. *ICML*.
+* Adaptive Agent Team (2023). Human-timescale adaptation in an open-ended task space. *arXiv*.
 * Vaswani et al. (2017). Attention is all you need. *NeurIPS*.
 
 ## Author
